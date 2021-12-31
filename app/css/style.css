@@ -42,7 +42,8 @@ section {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  grid-template-rows: 50vh 50vh;
+  /* height: 100vh; */
   /* height may need to be changed for the ability to change to  mobile screens */
 }
 
