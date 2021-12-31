@@ -2,6 +2,7 @@
 
 :root {
   --cyan-primary: rgb(42, 178, 175);
+  --cyan-secondary: rgb(74,190,189);
   --bright-yellow: rgb(192, 223, 52);
   --light-gray: rgb(229, 239, 245);
   --grayish-blue: rgb(152, 166, 189);
@@ -9,8 +10,63 @@
 
 * {
   font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  font-weight: 400;
+  color: var(--light-gray);
+}
+
+h1, h2, h3, h4, span { font-weight: 700; }
+
+p {
   font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+}
+
+#heading-txt {
+  color: var(--cyan-primary);
+}
+
+#incentive {
+  color: var(--bright-yellow);
+}
+
+#s-1 p {
+  color: var(--grayish-blue);
+}
+
+#s-2 {
+  background-color: var(--cyan-primary);
+}
+
+#s-3 {
+  background-color: var(--cyan-secondary);
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+#monthly-price {
+  font-size: 2rem;
+}
+
+.pay-frequency {
+  margin-left: 0.5rem;
+}
+
+.button {
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--light-gray);
+  background-color: var(--bright-yellow)
 }

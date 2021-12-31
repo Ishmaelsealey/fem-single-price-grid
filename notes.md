@@ -4,6 +4,8 @@
 
 - correct HTML markup
 - correct CSS
+  - I need to make the grid items 50% on desktop and 100% on mobile
+  - `$29 per month` will have to go into a flexbox layout with content justified center
   - no grid gaps needed
   - or 3 grid blocks with the top row grid box starting at column line 1 and ending at column line 2
 
