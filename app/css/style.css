@@ -42,7 +42,6 @@ section {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50vh 50vh;
 }
 
 #heading-txt {
