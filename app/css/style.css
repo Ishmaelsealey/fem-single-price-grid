@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
   --cyan-primary: rgb(42, 178, 175);
@@ -43,8 +43,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50vh 50vh;
-  /* height: 100vh; */
-  /* height may need to be changed for the ability to change to  mobile screens */
 }
 
 #heading-txt {
@@ -85,6 +83,7 @@ section {
 .price-container {
   display: flex;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 #monthly-price {
@@ -94,6 +93,11 @@ section {
 
 .pay-frequency {
   margin-left: 0.5rem;
+  font-weight: 200;
+}
+
+.access {
+  margin-bottom: 1.5rem;
 }
 
 .button {
@@ -102,5 +106,12 @@ section {
   border-radius: 5px;
   padding: 10px;
   color: var(--light-gray);
-  background-color: var(--bright-yellow)
+  background-color: var(--bright-yellow);
+  transition: all 400ms linear;
+}
+
+.button:hover {
+  color: var(--bright-yellow);
+  background-color: var(--light-gray);
+  cursor: pointer;
 }
