@@ -115,3 +115,26 @@ section {
   background-color: var(--light-gray);
   cursor: pointer;
 }
+
+/* section 3 */
+
+.about {
+  line-height: 1.3rem;
+}
+
+/* footer */
+
+footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bright-yellow);
+  color: var(--light-gray);
+}
+
+.attribution a {
+  color: var(--cyan-primary); 
+  text-decoration: none;
+}
