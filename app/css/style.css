@@ -42,6 +42,8 @@ section {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  /* min-height:100vh; makes it expand as needed when the screen is small */
 }
 
 #heading-txt {
