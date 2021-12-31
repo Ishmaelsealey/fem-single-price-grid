@@ -108,6 +108,8 @@ section {
   color: var(--light-gray);
   background-color: var(--bright-yellow);
   transition: all 400ms linear;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
