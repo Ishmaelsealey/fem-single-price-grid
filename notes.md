@@ -37,3 +37,14 @@
   - use h1 h2 h3 tags and a modified h4 tag or a span tag to style the money
 - Screenreader-only text for Section titles
 - keeping the grid accessible - [evanto tuts+ article](https://webdesign.tutsplus.com/articles/a-guide-to-css-grid-and-accessibility--cms-32857)
+
+## Restart
+
+I realised that I need to do proper prepwork and spread the workload over multiple days or at least not one long coding session.
+
+- Make sure you have the following planned outline
+  - Responsive Design
+  - Accessibility
+  - All functional parts of your website
+
+Style your website to be responsive and accessable from the start.
