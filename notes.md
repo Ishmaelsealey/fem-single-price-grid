@@ -40,11 +40,99 @@
 
 ## Restart
 
-I realised that I need to do proper prepwork and spread the workload over multiple days or at least not one long coding session.
+I realised that I need to do proper prepwork and spread the  
+workload over multiple days or at least not one long coding session.
 
 - Make sure you have the following planned outline
-  - Responsive Design
+  - Responsive Design - Mobile first Designs
   - Accessibility
   - All functional parts of your website
 
 Style your website to be responsive and accessable from the start.
+
+### Responsive CSS Grid Usage
+
+- Design Mobile first layout. When the screen gets bigger than 700px, then change styles,  
+instead of when it gets smaller than 700px
+- Use `box-sizing: border-box;`
+- Define 12 column classes that give the width of the column
+
+```CSS
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+```
+
+- Float all columns left and give a 15px padding
+
+```css
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+```
+
+- Wrap each row in a div and make sure all rows add up to 12 columns.
+
+```html
+ <div class="row">
+  <div class="col-3">...</div> <!-- 25% -->
+  <div class="col-9">...</div> <!-- 75% -->
+</div> 
+```
+
+The columns inside a row are all floating to the left, and are  therefore taken out of the flow of the page, and other elements  will be placed as if the columns do not exist. To prevent this,  we will add a style that clears the flow:
+
+```css
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+```
+
+- Next, create a media query that makes the width of each column 100% when the screen width is less than ___ pixels.
+
+```css
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Mobile first design */
+
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* What would be the mobile responsive 
+100% width columns would be outside the media query
+like the code below*/
+
+[class*="col-"] {
+  width: 100%;
+}
+```
