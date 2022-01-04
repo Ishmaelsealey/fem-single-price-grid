@@ -136,3 +136,26 @@ like the code below*/
   width: 100%;
 }
 ```
+
+I need to use flexbox to contain the grid box centered on the page.
+
+```html
+<div class="flexbox">
+  <div class="grid">
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+  </div>
+</div>
+```
+
+```css
+  .flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+  }
+  /* use a media query to change the background color to hsl(218, 22%, 67%) on desktop */
+  /* grid design will follow */
+```
