@@ -40,13 +40,6 @@ section {
   padding: 2.2rem;
 }
 
-.grid-container {
-  display: grid;
-  /* grid-template-columns: 1fr 1fr;
-  min-height: 100vh;
-  above makes it expand as needed when the screen is small */
-}
-
 #heading-txt {
   color: var(--cyan-primary);
 }
