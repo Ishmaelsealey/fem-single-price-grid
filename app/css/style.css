@@ -40,12 +40,12 @@ section {
   padding: 2.2rem;
 }
 
-/* .grid-container {
+.grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr;
   min-height: 100vh;
-  above makes it expand as needed when the screen is small
-} */
+  above makes it expand as needed when the screen is small */
+}
 
 #heading-txt {
   color: var(--cyan-primary);
@@ -62,11 +62,6 @@ section {
   justify-content: center;
   /* centers the text vertically for the section */
 }
-
-/* #s-1 {
-  grid-column: 1 / span 2;
-  makes it span the 2 columns  
-} */
 
 #s-1 p {
   color: var(--grayish-blue);
@@ -166,8 +161,6 @@ footer {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
-  border: 1px solid red;
 }
 
 /* Mobile first design */
