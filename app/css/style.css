@@ -54,6 +54,12 @@ section {
   flex-direction: column;
   justify-content: center;
   /* centers the text vertically for the section */
+  border: none;
+}
+
+#s-1 {
+  background-color: white;
+  border-radius: 15px 15px 0 0;
 }
 
 #s-1 p {
@@ -64,10 +70,12 @@ section {
 
 #s-2 {
   background-color: var(--cyan-primary);
+  border-radius: 0 0 0 15px;
 }
 
 #s-3 {
   background-color: var(--cyan-secondary);
+  border-radius: 0 0 15px 0;
 }
 
 .price-container {
@@ -186,7 +194,7 @@ footer {
 /* feel the urge to call quits and start a new one because I'm not getting the height to change or the entire section to change border */
 /* going to try something else now */
 
-.grid-container {
+/* .grid-container {
   border: 5px solid black;
   border-radius: 20px;
-}
+} */
