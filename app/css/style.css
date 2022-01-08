@@ -194,7 +194,7 @@ footer {
 /* feel the urge to call quits and start a new one because I'm not getting the height to change or the entire section to change border */
 /* going to try something else now */
 
-/* .grid-container {
+.grid-container {
   border: 5px solid black;
   border-radius: 20px;
-} */
+}
