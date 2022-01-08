@@ -17,7 +17,12 @@
 
 body {
   font-weight: 400;
-  color: var(--light-gray);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
 }
 
 h1, h2, h3, h4 { font-weight: 700; }
@@ -181,20 +186,3 @@ footer {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
-.flexbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: hsl(204, 43%, 93%);
-}
-
-/* made the section look alike to the design */
-/* feel the urge to call quits and start a new one because I'm not getting the height to change or the entire section to change border */
-/* going to try something else now */
-
-/* .grid-container {
-  border: 5px solid black;
-  border-radius: 20px;
-} */
