@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  margin: 3rem;
+  margin: 4rem 1.5rem;
   max-width: 100vw;
   /* offset-x | offset-y | blur-radius | color */
   box-shadow: 2px 5px 20px 5px rgba(0,0,0,0.1);
