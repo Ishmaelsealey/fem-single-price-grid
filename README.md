@@ -60,4 +60,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-Special thanks to [@nickfwilliams](https://www.frontendmentor.io/profile/nickfwilliams) and [his solution](https://www.frontendmentor.io/solutions/mobile-first-single-price-component-page-using-grid-WY29SdyRF) which helped me out tremendously.
+- Thanks to [@nickfwilliams](https://www.frontendmentor.io/profile/nickfwilliams) and [his solution](https://www.frontendmentor.io/solutions/mobile-first-single-price-component-page-using-grid-WY29SdyRF) which helped me out tremendously.
+- @saodinh also assisted me with some feedback on removing repeated code which could be done better.
