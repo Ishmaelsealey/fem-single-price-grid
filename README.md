@@ -8,7 +8,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [The challenge](###the-challenge)
   - [Screenshot](###screenshot)
   - [Links](###links)
-- [My process](##my-process)
   - [Built with](###built-with)
   - [What I learned](###what-i-learned)
   - [Useful resources](###useful-resources)
@@ -34,8 +33,6 @@ Users should be able to:
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-with-css-grid-DWN_ZHi6X)
 - [Live Site URL](https://ishmaelsealey.github.io/fem-single-price-grid/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -55,8 +52,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ishmael Sealey](http://ishmael-sealey.000webhostapp.com/)
 - Frontend Mentor - [@Ishmaelsealey](https://www.frontendmentor.io/profile/Ishmaelsealey)
+- Instagram - [@ishmael.sealey](https://www.instagram.com/ishmael.sealey)
 
 ## Acknowledgments
 
