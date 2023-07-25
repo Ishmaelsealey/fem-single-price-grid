@@ -41,15 +41,12 @@ h3 {
   font-weight: 700;
 }
 
-h1 {
-  margin-bottom: 1.5rem;
-}
-
 h2 {
   margin-bottom: 1rem;
 }
 
 #s-1 h1 {
+  margin-bottom: 1.5rem;
   color: var(--cyan-primary);
 }
 
@@ -87,16 +84,16 @@ section {
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+.price-container > p {
+  margin-left: 0.5rem;
 }
 
 #monthly-price {
   font-size: 2rem;
   font-weight: 700;
-}
-
-.pay-frequency {
-  margin-left: 0.5rem;
-  font-weight: 200;
 }
 
 .access {
@@ -126,23 +123,6 @@ section {
 
 .about {
   line-height: 1.3rem;
-}
-
-/* footer */
-
-footer {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: var(--bright-yellow);
-  color: var(--light-gray);
-}
-
-.attribution a {
-  color: var(--cyan-primary);
-  text-decoration: none;
 }
 
 /* Media Queries */
